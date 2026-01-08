@@ -6,31 +6,41 @@ DURATION  : 4 WEEKS
 MENTOR    : NEELA SANTOSH
 
 
-
 # Penetration Testing Toolkit (Python)
+The Penetration Testing Toolkit is a Python-based educational project developed as part of an internship task to demonstrate fundamental penetration testing concepts. This toolkit is designed to help learners understand how basic security testing tools work internally while maintaining a strong focus on ethics, modularity, and clarity.
+Penetration testing involves evaluating systems for security weaknesses by simulating potential attacks in a controlled and authorized environment. This project does not perform real-world exploitation and should only be used for learning purposes or on systems owned by the user or where explicit permission has been granted.
 
-This project is a Python-based penetration testing toolkit developed as part of an internship task. The toolkit demonstrates fundamental penetration testing concepts through a modular and ethical approach. It is designed strictly for educational and learning purposes.
+# Project Overview
+This toolkit follows a modular architecture, where each penetration testing concept is implemented as a separate module. This approach improves code readability, maintainability, and scalability. Users can easily understand individual components without dealing with unnecessary complexity.
+The toolkit is operated entirely through a menu-driven command-line interface, making it simple and accessible even for beginners. All modules rely solely on Python’s standard library, ensuring compatibility and ease of setup.
 
-The toolkit includes multiple modules such as a port scanner and a brute-force simulation module. Each module is implemented separately to maintain modularity and clarity. The tool runs via a command-line interface and is intended to be used only on systems owned by the user or where explicit permission has been granted.
+# Modules Included
+1. Port Scanner
+The port scanner module demonstrates how network services can be discovered by scanning common ports on a target system. It attempts to establish socket connections to predefined ports and reports which ports are open. This helps learners understand:
+How services listen on ports
+How attackers and security professionals identify exposed services
+The importance of closing unused ports
 
-## Modules Included
+2. Brute Force Simulation (Educational)
+This module simulates the logic behind brute-force attacks using a predefined wordlist. It does not perform real authentication attacks but instead demonstrates:
+How password-guessing logic works
+Why weak passwords are vulnerable
+The importance of strong authentication mechanisms
+The module is intentionally simplified to maintain ethical use and learning focus.
 
-- Port Scanner  
-- Brute Force Simulation (Educational)
+# Features
+Modular toolkit design for clarity and scalability
+Scans common ports on a target system
+Displays open ports with associated service names
+Demonstrates brute-force logic using a predefined wordlist
+Simple and interactive command-line menu
+Uses only Python standard libraries
+Beginner-friendly code structure with clear separation of concerns
 
-## Features
-
-- Modular toolkit design
-- Scans common ports on a target system
-- Displays open ports with associated services
-- Demonstrates brute-force password logic using a predefined wordlist
-- Simple menu-driven command-line interface
-- Uses only Python standard libraries
-
-## Requirements
-
-- Python 3.7 or higher  
-- No external libraries required
+# Requirements
+Python 3.7 or higher
+No external libraries required
+This ensures the toolkit can be run on most systems without additional setup.
 
 ## Project Structure
 penetration-testing-toolkit/
