@@ -50,4 +50,11 @@ penetration-testing-toolkit/
 ├── README.md
 └── requirements.txt
 
+# output
+<img width="1920" height="1020" alt="Image" src="https://github.com/user-attachments/assets/2907795e-eb6e-4949-8b62-5ebb1ba543a8" />
+
+<img width="1920" height="1020" alt="Image" src="https://github.com/user-attachments/assets/b917dac8-83cb-4e9f-b090-705710cf6b8a" />
+
+<img width="1920" height="1020" alt="Image" src="https://github.com/user-attachments/assets/a9f1900b-bc0f-47ad-a450-fee3ab1301f8" />
+
 
